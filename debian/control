@@ -23,7 +23,7 @@ Description: Argus PEP client library (development files)
 Package: libargus-pep2
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Argus PEP client library (development files)
+Description: Argus PEP client library
  The Argus PEP client API for C is a multithread-safe client library
  used to communicate with the Argus PEP Server. It authorizes request
  and receives authorization response back from Argus.
