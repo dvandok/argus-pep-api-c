@@ -1,0 +1,30 @@
+Source: argus-pep-api-c
+Priority: extra
+Maintainer: Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libcurl-dev
+Standards-Version: 3.9.3
+Section: libs
+Homepage: https://twiki.cern.ch/twiki/bin/view/EGEE/AuthorizationFramework
+Vcs-git: git://github.com/dvandok/argus-pep-api-c.git
+Vcs-browser: https://github.com/dvandok/argus-pep-api-c
+
+Package: libargus-pep-dev
+Section: libdevel
+Architecture: any
+Depends: libargus-pep2 (= ${binary:Version})
+Description: Argus PEP client library (development files)
+ The Argus PEP client API for C is a multithread-safe client library
+ used to communicate with the Argus PEP Server. It authorizes request
+ and receives authorization response back from Argus.
+ .
+ This package contains the development files required to build
+ client applications.
+
+Package: libargus-pep2
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Argus PEP client library (development files)
+ The Argus PEP client API for C is a multithread-safe client library
+ used to communicate with the Argus PEP Server. It authorizes request
+ and receives authorization response back from Argus.

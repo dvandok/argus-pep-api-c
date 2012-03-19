@@ -1,0 +1,15 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: argus-pep-api-c
+Source: https://www.switch.ch/grid/authz/emi.argus.pep-api-c/
+
+Files: *
+Copyright: 2006-2010 Members of the EGEE Collaboration <argus-support@cern.ch>
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2012 Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>
+License: Apache-2.0
+
+License: Apache-2.0
+  On Debian GNU/Linux system you can find the complete text of the
+  Apache-2.0 license in '/usr/share/common-licenses/Apache-2.0'

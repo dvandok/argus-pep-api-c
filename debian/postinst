@@ -1,0 +1,8 @@
+#!/bin/sh
+# postinst script for argus-pep-api-c
+
+set -e
+
+#DEBHELPER#
+
+exit 0
