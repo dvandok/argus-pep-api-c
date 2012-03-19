@@ -1,5 +1,5 @@
 argus-pep-api-c (2.0.3-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #664689)
 
  -- Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>  Mon, 19 Mar 2012 16:33:19 +0100
