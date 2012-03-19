@@ -1,0 +1,13 @@
+Description: Typo in string literal
+Author: Dennis van Dok <dennisvd@nikhef.nl>
+
+--- a/src/argus/error.c
++++ b/src/argus/error.c
+@@ -93,6 +93,6 @@
+         return "Unmarshalling IO error";
+         
+     default:
+-        return "Unkown error";
++        return "Unknown error";
+     }
+ }
